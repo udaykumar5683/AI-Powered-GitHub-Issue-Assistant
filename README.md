@@ -1,22 +1,22 @@
 # AI-Powered-GitHub-Issue-Assistant
 An AI-powered web app that analyzes GitHub issues using LLMs and generates structured summaries to help teams classify, prioritize, and understand issues faster.
 
-## 🚀 Features
+## Features
 
-- 🔗 Accepts a **public GitHub repository URL** and **issue number**
-- 📥 Fetches issue title, body, and comments using the GitHub API
-- 🧠 Uses an **LLM (Large Language Model)** to analyze the issue
-- 📊 Generates a **structured JSON summary** including:
+-  Accepts a **public GitHub repository URL** and **issue number**
+-  Fetches issue title, body, and comments using the GitHub API
+-  Uses an **LLM (Large Language Model)** to analyze the issue
+-  Generates a **structured JSON summary** including:
   - Issue summary
   - Issue type (bug, feature request, documentation, etc.)
   - Priority score with justification
   - Suggested GitHub labels
   - Potential user impact
-- 🖥️ Clean and simple **Streamlit-based UI**
+-  Clean and simple **Streamlit-based UI**
 
 ---
 
-## 🧱 Tech Stack
+##  Tech Stack
 
 - **Frontend**: Streamlit  
 - **Backend**: Python  
@@ -28,7 +28,7 @@ An AI-powered web app that analyzes GitHub issues using LLMs and generates struc
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 ai-github-issue-assistant/
@@ -43,9 +43,9 @@ ai-github-issue-assistant/
 
 ---
 
-## ⚙️ Setup & Run (Under 5 Minutes)
+##  Setup & Run (Under 5 Minutes)
 
-### 1️⃣ Clone the Repository
+### 1️ Clone the Repository
 ```bash
 git clone <your-github-repo-url>
 cd ai-github-issue-assistant
@@ -53,7 +53,7 @@ cd ai-github-issue-assistant
 
 ---
 
-### 2️⃣ Create Virtual Environment (Optional)
+### 2️ Create Virtual Environment (Optional)
 ```bash
 python -m venv venv
 ```
@@ -72,14 +72,14 @@ source venv/bin/activate
 
 ---
 
-### 3️⃣ Install Dependencies
+### 3️ Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
 ---
 
-### 4️⃣ Environment Variables
+### 4️ Environment Variables
 
 Create a `.env` file in the root directory:
 
@@ -92,14 +92,14 @@ https://huggingface.co/settings/tokens
 
 ---
 
-### 5️⃣ Run the Application
+### 5️ Run the Application
 ```bash
 streamlit run app.py
 ```
 
 ---
 
-## 🧪 Example Usage
+##  Example Usage
 
 **Input**
 - Repository URL: `https://github.com/facebook/react`
@@ -118,7 +118,7 @@ streamlit run app.py
 
 ---
 
-## 🧠 Design Notes
+##  Design Notes
 
 - LLM layer is **provider-agnostic**
 - Clean separation of UI, API, and AI logic
@@ -127,7 +127,7 @@ streamlit run app.py
 
 ---
 
-## 🌱 Future Improvements
+##  Future Improvements
 
 - Copy JSON button
 - Response caching
@@ -136,7 +136,7 @@ streamlit run app.py
 
 ---
 
-## 👤 Author
+##  Author
 
 **Udaykumar G**  
 B.Tech – Computer Science Engineering (AI & ML)  
@@ -144,6 +144,6 @@ Ballari Institute of Technology and Management
 
 ---
 
-## 📌 Note
+##  Note
 
 This project demonstrates AI-native full-stack engineering, focusing on practical problem-solving, clean architecture, and rapid delivery.
